@@ -1,5 +1,7 @@
 package com.paulineboivin.projetasciiart.utils;
 
+import java.util.Scanner;
+
 public class ScannerProvider {
 
 
@@ -19,7 +21,6 @@ public class ScannerProvider {
         }
         return INSTANCE;
     }
-}
 	private Scanner scanner;
 		public Scanner getScanner(){
 			return scanner;
